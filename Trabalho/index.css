@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(114, 114, 247);
+}
+
+.index-main {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-main {
+    transition: width 0.2s, height 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: rgb(144, 144, 255);
+}
+
+.box-main:hover {
+    transition: 0.4s;
+    width: 305px;
+    height: 405px;
+}
+
+.img-box {
+    object-fit: cover;
+    height: 150px;
+    width: 100%;
+}
+
+.cont-box {
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 130px;
+    width: 120px;
+    background-color: white;
+}
+
+.voltar {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+/* Autor */
+
+.auto-main {
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(144, 144, 255);
+    border: 1px solid black;
+}
+
+.auto-img {
+    object-fit: cover;
+    width: 40%;
+}
+
+/* Música */
+
+.mus-main {
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(144, 144, 255);
+    border: 1px solid black;
+}
+
+.mus-img {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
